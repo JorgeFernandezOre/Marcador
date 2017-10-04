@@ -56,11 +56,6 @@ app.get('/user', function (req, res) {
 	res.sendfile('./public/user.html');
 });
 
-//La de la plantilla profesional
-//La del usuario
-app.get('/plantilla', function (req, res) {
-	res.sendfile('./public/plantilla.html');
-});
 
 //
 //Comenzamos Socket.io
