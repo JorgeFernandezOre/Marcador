@@ -6,4 +6,3 @@ Para que publique actualizaciones en Twiter crear cuenta y poner la configuraci√
 Para ejecutarlo hacer desde la consola npm install && npm start
 Las rutas son para el usuario normal http://localhost:8080/user
 Para el administrador http://localhost:8080/admin123 usuario:username password:password
-Para la plantilla profesional http://localhost:8080/plantilla
