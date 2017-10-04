@@ -1,0 +1,70 @@
+<!doctype html>
+<html ng-app="aplicacionResultadosAdmin" >
+  <head>
+	<meta charset="utf-8">
+            <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
+              <script src="/javascripts/angular.min.js"></script>
+
+      	<title> Marcador </title>
+
+  </head>
+
+  <body>
+	  
+      
+    <div ng-controller="controladorListaDePartidosAdmin" >
+
+        <div class="page-header">
+	         <h1 class="text-center">   Partidos de la jornada {{partidos[0].numeroJornada}} <br>  <button ng-click="jornadaAnterior(partidos[0].numeroJornada)"><< Jornada Anterior </button>  <button ng-click="jornadaSiguiente(partidos[0].numeroJornada)"> Jornada Siguiente >></button</h1>
+        </div>
+
+        <div ng-repeat = "partido in partidos | orderBy:'numeroPartido'">
+            
+                <div class="panel panel-default col-lg-6 col-sm-12">
+                    <div class='panel panel-heading text-center'>Partido {{partido.numeroPartido}}</div>
+                    <div class='panel-body'>
+
+                        <ul class="list-group">
+                            <li class="list-group-item text-center">{{partido.estadoPartido}}<br><button ng-click="cambioEstadoPartido(partido._id,estadoSeleccionado.nombreEstado)">Cambiar Estado</button></li>
+                            <li class="list-group-item text-center">
+                            <select ng-init="estadoSeleccionado = estados[0]" ng-model="estadoSeleccionado"   ng-options="x.nombreEstado for x in estados">
+                            </select>
+                            </li>
+                            <li class="list-group-item text-center">{{partido.fecha |  date:"d/M/yyyy"}}</li>
+                        </ul>
+
+                                    <div class='col-sm-6 text-center'> 
+
+                                        <ul class="list-group">
+                                            <li class="list-group-item"><img ng-src="imagenes/{{partido.nombreLocal}}.png"  width='64' height='64'></li>
+                                            <li class="list-group-item">{{partido.nombreLocal}}</li>
+                                            <li class="list-group-item"><button ng-click="restarGolLocal(partido._id,partido.estadoPartido,partido.golesLocal)">-</button>  {{partido.estadoPartido === "No Comenzado" ? "?" : partido.golesLocal}}  <button ng-click="sumarGolLocal(partido._id,partido.estadoPartido,partido.golLocal)">+</button></li>
+                                        </ul>
+
+                                    </div>
+
+                                    <div class='col-sm-6 text-center'>
+
+                                        <ul class="list-group">
+                                            <li class="list-group-item"><img ng-src="imagenes/{{partido.nombreVisitante}}.png"  width='64' height='64'></li>
+                                            <li class="list-group-item">{{partido.nombreVisitante}}</li>
+                                            <li class="list-group-item"> <button ng-click="restarGolVisitante(partido._id,partido.estadoPartido,partido.golesVisitante)">-</button>  {{partido.estadoPartido === "No Comenzado" ? "?" : partido.golesVisitante}}  <button ng-click="sumarGolVisitante(partido._id,partido.estadoPartido)">+</button></li>
+                                        </ul>
+                    
+                                    </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+		<script type='text/javascript' src='/socket.io/socket.io.js'></script>
+
+<script
+			  src="/javascripts/jquery-3.1.1.min.js">
+</script>
+
+<script type='text/javascript' src='/javascripts/jsAngularAdmin.js'></script>
+
+
+  </body>
+</html>

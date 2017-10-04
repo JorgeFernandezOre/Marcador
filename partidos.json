@@ -1,0 +1,183 @@
+{
+"partidos":[{
+  "numeroJornada": 1,
+  "numeroPartido": 1,
+  "nombreLocal": "Málaga",
+  "nombreVisitante": "Osasuna"
+},
+{
+  "numeroJornada": 1,
+  "numeroPartido": 2,
+  "nombreLocal": "Deportivo",
+  "nombreVisitante": "Eibar"
+},
+{
+  "numeroJornada": 1,
+  "numeroPartido": 3,
+  "nombreLocal": "Barcelona",
+  "nombreVisitante": "Betis"
+},
+{
+  "numeroJornada": 1,
+  "numeroPartido": 4,
+  "nombreLocal": "Granada",
+  "nombreVisitante": "Villareal"
+},
+{
+  "numeroJornada": 1,
+  "numeroPartido": 5,
+  "nombreLocal": "Sevilla",
+  "nombreVisitante": "Espanyol"
+},
+{
+  "numeroJornada": 1,
+  "numeroPartido": 6,
+  "nombreLocal": "Sporting",
+  "nombreVisitante": "Athletic"
+},
+{
+  "numeroJornada": 1,
+  "numeroPartido": 7,
+  "nombreLocal": "Real Sociedad",
+  "nombreVisitante": "Real Madrid"
+},
+{
+  "numeroJornada": 1,
+  "numeroPartido": 8,
+  "nombreLocal": "Atlético",
+  "nombreVisitante": "Alavés"
+},
+{
+  "numeroJornada": 1,
+  "numeroPartido": 9,
+  "nombreLocal": "Celta",
+  "nombreVisitante": "Leganés"
+},
+{
+  "numeroJornada": 1,
+  "numeroPartido": 10,
+  "nombreLocal": "Valencia",
+  "nombreVisitante": "Las Palmas"
+},
+{
+  "numeroJornada": 2,
+  "numeroPartido": 1,
+  "nombreLocal": "Betis",
+  "nombreVisitante": "Deportivo"
+},
+{
+  "numeroJornada": 2,
+  "numeroPartido": 2,
+  "nombreLocal": "Espanyol",
+  "nombreVisitante": "Málaga"
+},
+{
+  "numeroJornada": 2,
+  "numeroPartido": 3,
+  "nombreLocal": "Osasuna",
+  "nombreVisitante": "Real Sociedad"
+},
+{
+  "numeroJornada": 2,
+  "numeroPartido": 4,
+  "nombreLocal": "Eibar",
+  "nombreVisitante": "Valencia"
+},
+{
+  "numeroJornada": 2,
+  "numeroPartido": 5,
+  "nombreLocal": "Real Madrid",
+  "nombreVisitante": "Celta"
+},
+{
+  "numeroJornada": 2,
+  "numeroPartido": 6,
+  "nombreLocal": "Leganés",
+  "nombreVisitante": "Atlético"
+},
+{
+  "numeroJornada": 2,
+  "numeroPartido": 7,
+  "nombreLocal": "Las Palmas",
+  "nombreVisitante": "Granada"
+},
+{
+  "numeroJornada": 2,
+  "numeroPartido": 8,
+  "nombreLocal": "Alavés",
+  "nombreVisitante": "Sporting"
+},
+{
+  "numeroJornada": 2,
+  "numeroPartido": 9,
+  "nombreLocal": "Athletic",
+  "nombreVisitante": "Barcelona"
+},
+{
+  "numeroJornada": 2,
+  "numeroPartido": 10,
+  "nombreLocal": "Villareal",
+  "nombreVisitante": "Sevilla"
+},
+{
+  "numeroJornada": 3,
+  "numeroPartido": 1,
+  "nombreLocal": "Real Sociedad",
+  "nombreVisitante": "Espanyol"
+},
+{
+  "numeroJornada": 3,
+  "numeroPartido": 2,
+  "nombreLocal": "Celta",
+  "nombreVisitante": "Atlético"
+},
+{
+  "numeroJornada": 3,
+  "numeroPartido": 3,
+  "nombreLocal": "Real Madrid",
+  "nombreVisitante": "Osasuna"
+},
+{
+  "numeroJornada": 3,
+  "numeroPartido": 4,
+  "nombreLocal": "Sevilla",
+  "nombreVisitante": "Las Palmas"
+},
+{
+  "numeroJornada": 3,
+  "numeroPartido": 5,
+  "nombreLocal": "Málaga",
+  "nombreVisitante": "Villareal"
+},
+{
+  "numeroJornada": 3,
+  "numeroPartido": 6,
+  "nombreLocal": "Barcelona",
+  "nombreVisitante": "Alavés"
+},
+{
+  "numeroJornada": 3,
+  "numeroPartido": 7,
+  "nombreLocal": "Sporting",
+  "nombreVisitante": "Leganés"
+},
+{
+  "numeroJornada": 3,
+  "numeroPartido": 8,
+  "nombreLocal": "Valencia",
+  "nombreVisitante": "Betis"
+},
+{
+  "numeroJornada": 3,
+  "numeroPartido": 9,
+  "nombreLocal": "Granada",
+  "nombreVisitante": "Eibar"
+},
+{
+  "numeroJornada": 3,
+  "numeroPartido": 10,
+  "nombreLocal": "Deportivo",
+  "nombreVisitante": "Athletic"
+}
+]
+}
