@@ -25,8 +25,6 @@ app.set('port', process.env.PORT || 8080);
 var server = app.listen(app.get('port'));
 app.use(express.static(path.join(__dirname, 'public')));
 
-//app.set('views', path.join(__dirname, 'views'));
-//app.set('view engine', 'jade');
 app.use(express.favicon());
 app.use(express.logger('dev'));
 app.use(app.router);
