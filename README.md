@@ -1,4 +1,4 @@
-Marcador MEAN Real Time
+Marcador MEAN Real Time que fue mi trabajo de fin de ciclo formativo de DAW
 =============
 
 Una aplicación hecha con el stack MEAN que muestra los resultados y cambios de estado en tiempo real y los postea en Twitter
